@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local simulator data and official-run artefacts must stay local.
+*.jsonl
+practice_runs.csv
+*.sqlite3
+robot_log*
+
+# Generated visualisations can be rebuilt from make_figures.py.
+fig_*.png
